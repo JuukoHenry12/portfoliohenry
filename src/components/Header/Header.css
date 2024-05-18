@@ -1,0 +1,10 @@
+.header {
+    background-image: url('../../assets/bg.jpg');
+    background-size: cover; /* Adjust as per your requirement */
+    height: 490px;
+}
+/* Header.css */
+.globe-container {
+    width: 40%;
+    height: 60%;
+}
