@@ -1,9 +1,6 @@
 import React ,{useEffect,useRef}from 'react'
 import portfolioImage from '../../assets/profile.jpg';
 import './about.css'
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useGLTF } from '@react-three/drei';
-
 const About = () => {
 const projectRef = useRef(null);
   useEffect(() => {
@@ -37,7 +34,6 @@ const projectRef = useRef(null);
              <div className="flex-1 m-4 h-screen w-screen">
                <img src={portfolioImage} alt="" />
              </div>
-            
             <div className='flex-1 mt-4'>
                     <h3 className='text-white text-fuchsia-200 text-xl slide-in-left'>
                         I am writing to provide an overview of the value I can bring to the team as a seasoned software
